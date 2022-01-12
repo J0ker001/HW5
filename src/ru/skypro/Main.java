@@ -6,6 +6,7 @@ public class Main {
 
 
     public static void main(String[] args) {
+
         int[] arrOne = new int[]{1, 2, 3};
         System.out.println(Arrays.toString(arrOne));
         for (int i = 2; i >= 0; i--) {
@@ -20,10 +21,12 @@ public class Main {
             } else System.out.print(arrOne[i]);
             System.out.print(" ");
         }
+
         System.out.println();
         System.out.println();
         System.out.println();
         System.out.println();
+
         float[] arrTwo = {1.57f, 7.654f, 9.986f};
         System.out.println(Arrays.toString(arrTwo));
         for (int i = 2; i >= 0; i--) {
@@ -31,10 +34,12 @@ public class Main {
                 System.out.print(arrTwo[i] + ", ");
             else System.out.println(arrTwo[i]);
         }
+
         System.out.println();
         System.out.println();
         System.out.println();
         System.out.println();
+
         float[] arrThree = {2.85f, 4.54f, 5.32f, 7.213f};
         System.out.println(Arrays.toString(arrThree));
         for (int i = 3; i >= 0; i--) {
